@@ -18,7 +18,7 @@
 		div.table {
 			background-color: #FFF8D6;
 			border:			  3px solid black;
-			box-shadow:		  20px 20px 40px #6A5700;
+			box-shadow:		  -20px 20px 40px #6A5700;
 			padding: 		  20px;
 			position:         absolute;
 			right:            40px;
@@ -30,20 +30,43 @@
 		div.left {
 			background-color: #FFF8D6;
 			border:			  3px solid black;
-			box-shadow:		  20px 20px 40px #6A5700;
+			box-shadow:		  -20px 20px 40px #6A5700;
 			padding: 		  20px;
 			position:         fixed;
 			left:             60px;
 			top:              40px;
 			width:            400px;	
-			height:			  600px;
-		}
-		
-		img {
-			float: right:
-			top: 650;
+			height:			  613px;
 			
 		}
+		
+		h1 {
+			font-family:      Counter-Strike Regular;
+			font-size: 		  34pt;
+			font-weight:	  bold;
+		}
+		
+		p {
+			font-family:      Comic Sans MS;
+			font-size: 		  14pt;
+			line-height:	  34px;
+		}
+		
+		.-CSimage {
+			float: right;
+			margin-top: 400px;
+			margin-right: 50px;
+			border: 5px solid black;
+			
+		}
+		
+		.Astralis {
+			float: right;
+			margin-top: 392px;
+			margin-right: 70px;
+			
+		}
+		
 		
 		table, th, td {
 			border-bottom: 1px solid #DDDDDD;
@@ -56,11 +79,15 @@
 			color: #FFDA29;
 		}
 		
-		td:hover {
-			background-color: #F5EDC6;
+		.1.2.3.4:hover {
+			background-color: #D5ADC6;
 			color: #FFD815;
 		}
 		
+		td:hover:not(.1.2.3.4) {
+			background-color: #F5EDC6;
+			color: #FFD815;
+		}
 		
 		
 		th, td {
@@ -99,26 +126,31 @@
 				 <th> Rank </th> <th>Teams</th> <th>Points</th> <th>Player 1</th> <th>Player 2</th>	<th>Player 3</th> <th>Player 4</th> <th>Player 5</th>
 			</tr>
 			<tr>
-				 <td>No.1</td> <td>  -Astralis</td> 	<td>904</td> 	<td>device</td> 	<td>Magisk</td> 	<td>dupreeh</td> 	<td>Xrp9x</td> 	<td>gla1ve</td>
+				 <td>No.1</td> <td class="1"> -Astralis</td> 	<td>904</td> 	<td>device</td> 	<td>Magisk</td> 	<td>dupreeh</td> 	<td>Xrp9x</td> 	<td>gla1ve</td>
 			</tr>
 			<tr>
-				 <td>N0.2</td> <td> -mousesports</td> 	<td>878</td> 	<td>frozen</td> 	<td>woxic</td> 	<td>ropz</td> 	<td>chrisJ</td> 	<td>karrigan</td>
+				 <td>No.2</td> <td class="2"> -mousesports</td> 	<td>878</td> 	<td>frozen</td> 	<td>woxic</td> 	<td>ropz</td> 	<td>chrisJ</td> 	<td>karrigan</td>
 			</tr>
 			<tr>
-				 <td>No.3</td> <td> -Liquid</td> 	<td>608</td> 	<td>Twistzz</td> 	<td>EliGE</td> 	<td>NAF</td> 	<td>Stewie2K</td> 	<td>nitr0</td>
+				 <td>No.3</td> <td class="3"> -Liquid</td> 	<td>608</td> 	<td>Twistzz</td> 	<td>EliGE</td> 	<td>NAF</td> 	<td>Stewie2K</td> 	<td>nitr0</td>
 			</tr>
 			<tr>
-				 <td>No.4</td> <td> -Fnatic</td> 	<td>559</td> 	<td>Brollan</td> 	<td>flusha</td> 	<td>JW</td> 	<td>KRIMZ</td> 	<td>Golden</td>
+				 <td>No.4</td> <td class="4"> -Fnatic</td> 	<td>559</td> 	<td>Brollan</td> 	<td>flusha</td> 	<td>JW</td> 	<td>KRIMZ</td> 	<td>Golden</td>
 			</tr>
 			
 		</table>
 	</div>
 	
 	<div class="left">
-		<h1> </h1>
+		<h1>Counter-Strike: Global Offensive</h1>
+		<p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed pellentesque blandit cursus. Phasellus condimentum maximus volutpat. In dui odio, rutrum a ante non, tempor elementum purus. Sed eleifend varius vehicula. Aliquam a sodales lacus, sed euismod orci.</p>
 	</div>
 	
-	<img src="th795XYJT6.jpg">
+	<img class="Astralis" src='Astralis_logo.png' width=250px; >
+	<img class="-CSimage" src='th795XYJT6.jpg' width=500px; >
+	
+
+
 </body>
 
 </html>
